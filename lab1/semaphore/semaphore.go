@@ -1,4 +1,5 @@
-// This code was written with help from Terry Huynh (C00300806).
+// This code was written with help from Terry Huynh (C00300806) and Isabel Rafter (C00303465).
+// I also helped Terry Huynh and Isabel Rafter with their code.
 // Package semaphore provides a counting semaphore for coordinating goroutines.
 //
 // A Semaphore deliberately exposes only Wait and Signal. Its current count is
