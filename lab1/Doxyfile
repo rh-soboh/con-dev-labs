@@ -1,0 +1,9 @@
+PROJECT_NAME           = "Go Concurrency Lab One"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = semaphore cmd README.md
+FILE_PATTERNS          = *.go
+RECURSIVE              = YES
+EXTRACT_ALL             = YES
+GENERATE_HTML           = YES
+GENERATE_LATEX          = NO
+QUIET                  = YES
