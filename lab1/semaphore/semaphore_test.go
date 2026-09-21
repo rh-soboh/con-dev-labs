@@ -1,3 +1,4 @@
+// This code was written with help from Terry Huynh (C00300806).
 package semaphore
 
 import (

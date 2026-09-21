@@ -1,3 +1,4 @@
+// This code was written with help from Terry Huynh (C00300806).
 // Barrier example for Concurrent Development Lab 2.
 // Author: Shadrach Oboh
 // Licence: MIT

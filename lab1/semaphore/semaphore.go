@@ -1,3 +1,4 @@
+// This code was written with help from Terry Huynh (C00300806).
 // Package semaphore provides a counting semaphore for coordinating goroutines.
 //
 // A Semaphore deliberately exposes only Wait and Signal. Its current count is

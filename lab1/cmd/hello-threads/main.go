@@ -1,3 +1,4 @@
+// This code was written with help from Terry Huynh (C00300806).
 // Command hello-threads demonstrates starting and joining goroutines.
 package main
 
