@@ -1,7 +1,7 @@
 # Go Concurrency Lab Two
 
-This lab implements the Barrier and Rendezvous exercises from the
-Concurrent Development laboratory.
+This project is a Go implementation of the semaphore, rendezvous, and mutual
+exclusion examples supplied in the C++ lab template.
 
 ## Author and licence
 
@@ -11,39 +11,49 @@ Licence: [MIT License](LICENSE)
 ## Requirements
 
 - Go 1.21 or newer
-- Run the commands from the repository root, where `go.mod` is located.
+- Doxygen (optional, for generated API documentation)
 
 ## Run
 
-From the repository root:
+From the `lab2` directory:
 
 ```sh
-go run ./lab2/barrier
-go run ./lab2/rendezvous
+go test ./...
+go run ./cmd/hello-threads
+go run ./cmd/rendezvous
+go run ./cmd/mutual-exclusion
+go test -race ./...
 ```
 
-The barrier program prints `Part A` for every worker before any `Part B`
-message is printed. The rendezvous program waits for both workers to reach
-their rendezvous before allowing either worker to continue.
+The mutual exclusion example should always print `100000`, because the
+semaphore permits only one goroutine at a time to update the shared counter.
 
 ## Generate documentation
 
-Install Doxygen if it is not already available, then run this command from
-the `lab2` directory:
+Go source comments use GoDoc conventions and can be viewed with:
+
+```sh
+go doc ./semaphore
+```
+
+Doxygen can also generate HTML documentation from the source comments:
 
 ```sh
 doxygen Doxyfile
 ```
 
-The generated HTML documentation is written to `lab2/docs/html`.
+The generated documentation is written to `docs/html`.
 
 ## Files
 
-- `barrier/main.go`: one-use barrier implementation and demonstration.
-- `rendezvous/main.go`: two-party rendezvous implementation and demonstration.
-- `Doxyfile`: Doxygen configuration.
+- `semaphore/semaphore.go`: reusable counting semaphore implementation.
+- `semaphore/semaphore_test.go`: semaphore behavior tests.
+- `cmd/hello-threads`: basic goroutine and wait-group example.
+- `cmd/rendezvous`: two-way semaphore rendezvous.
+- `cmd/mutual-exclusion`: semaphore-protected shared counter.
+- `Doxyfile`: optional Doxygen configuration.
 - `LICENSE`: MIT licence.
 
 ## To do
 
-- Add automated tests for the barrier and rendezvous synchronization guarantees.
+- Add further semaphore exercises from later lab sessions.

@@ -1,9 +1,9 @@
 PROJECT_NAME           = "Go Concurrency Lab Two"
 OUTPUT_DIRECTORY       = docs
-INPUT                  = barrier rendezvous README.md
+INPUT                  = semaphore cmd README.md
 FILE_PATTERNS          = *.go
 RECURSIVE              = YES
-EXTRACT_ALL            = YES
-GENERATE_HTML          = YES
-GENERATE_LATEX         = NO
+EXTRACT_ALL             = YES
+GENERATE_HTML           = YES
+GENERATE_LATEX          = NO
 QUIET                  = YES

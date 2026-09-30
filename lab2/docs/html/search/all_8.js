@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['to_20do_0',['To do',['../md__r_e_a_d_m_e.html#autotoc_md6',1,'']]],
-  ['two_1',['Go Concurrency Lab Two',['../md__r_e_a_d_m_e.html',1,'']]]
+  ['semaphore_2ego_0',['semaphore.go',['../semaphore_8go.html',1,'']]],
+  ['semaphore_5ftest_2ego_1',['semaphore_test.go',['../semaphore__test_8go.html',1,'']]]
 ];

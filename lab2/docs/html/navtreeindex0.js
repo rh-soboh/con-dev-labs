@@ -1,9 +1,12 @@
 var NAVTREEINDEX0 =
 {
-"barrier_2main_8go.html":[1,0,0,0],
-"dir_67aed7ea21f87bed327fd4f976dc0309.html":[1,0,1],
-"dir_b234406fd4434052f4c3a2a98121d57f.html":[1,0,0],
+"dir_2687dd6c373400e8430507177c397f89.html":[1,0,0,1],
+"dir_45c643d7e057db58d3d02dfb98ccf272.html":[1,0,0,2],
+"dir_50a28221d0f5027093306cfc52a57d36.html":[1,0,0],
+"dir_a97e71d82b43be5de63449de08dd10a4.html":[1,0,1],
+"dir_da2f422c0d6e1588de403dee88b9abce.html":[1,0,0,0],
 "files.html":[1,0],
+"hello-threads_2main_8go.html":[1,0,0,0,0],
 "index.html":[],
 "md__r_e_a_d_m_e.html":[0],
 "md__r_e_a_d_m_e.html#autotoc_md1":[0,0],
@@ -12,6 +15,9 @@ var NAVTREEINDEX0 =
 "md__r_e_a_d_m_e.html#autotoc_md4":[0,3],
 "md__r_e_a_d_m_e.html#autotoc_md5":[0,4],
 "md__r_e_a_d_m_e.html#autotoc_md6":[0,5],
+"mutual-exclusion_2main_8go.html":[1,0,0,1,0],
 "pages.html":[],
-"rendezvous_2main_8go.html":[1,0,1,0]
+"rendezvous_2main_8go.html":[1,0,0,2,0],
+"semaphore_8go.html":[1,0,1,0],
+"semaphore__test_8go.html":[1,0,1,1]
 };

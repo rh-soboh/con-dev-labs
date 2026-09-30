@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "Go Concurrency Lab Two", "index.html", [
-    [ "Go Concurrency Lab Two", "md__r_e_a_d_m_e.html", [
+  [ "Go Concurrency Lab Three", "index.html", [
+    [ "Go Concurrency Lab Three", "md__r_e_a_d_m_e.html", [
       [ "Author and licence", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
       [ "Requirements", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
       [ "Run", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
@@ -41,7 +41,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dir_2687dd6c373400e8430507177c397f89.html"
+"barrier_2main_8go.html"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';
