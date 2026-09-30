@@ -1,6 +1,6 @@
 PROJECT_NAME           = "Go Concurrency Lab Two"
 OUTPUT_DIRECTORY       = docs
-INPUT                  = semaphore cmd README.md
+INPUT                  = atomic collatz cmd semaphore signal README.md
 FILE_PATTERNS          = *.go
 RECURSIVE              = YES
 EXTRACT_ALL             = YES

@@ -5,7 +5,7 @@ exclusion examples supplied in the C++ lab template.
 
 ## Author and licence
 
-Author: Shadrach Oboh  
+Author: Shadrach Oboh
 Licence: [MIT License](LICENSE)
 
 ## Requirements
@@ -22,6 +22,9 @@ go test ./...
 go run ./cmd/hello-threads
 go run ./cmd/rendezvous
 go run ./cmd/mutual-exclusion
+go run ./atomic
+go run ./collatz
+go run ./signal
 go test -race ./...
 ```
 
@@ -51,9 +54,8 @@ The generated documentation is written to `docs/html`.
 - `cmd/hello-threads`: basic goroutine and wait-group example.
 - `cmd/rendezvous`: two-way semaphore rendezvous.
 - `cmd/mutual-exclusion`: semaphore-protected shared counter.
+- `atomic/main.go`: atomic counter shared by multiple goroutines.
+- `collatz/main.go`: semaphore-limited parallel Collatz calculations.
+- `signal/main.go`: channel-based signalling between two goroutines.
 - `Doxyfile`: optional Doxygen configuration.
 - `LICENSE`: MIT licence.
-
-## To do
-
-- Add further semaphore exercises from later lab sessions.

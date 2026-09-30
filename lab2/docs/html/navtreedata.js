@@ -30,8 +30,7 @@ var NAVTREE =
       [ "Requirements", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
       [ "Run", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
       [ "Generate documentation", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "Files", "md__r_e_a_d_m_e.html#autotoc_md5", null ],
-      [ "To do", "md__r_e_a_d_m_e.html#autotoc_md6", null ]
+      [ "Files", "md__r_e_a_d_m_e.html#autotoc_md5", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ]
@@ -41,7 +40,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dir_2687dd6c373400e8430507177c397f89.html"
+"atomic_2main_8go.html"
 ];
 
 const SYNCONMSG = 'click to disable panel synchronization';

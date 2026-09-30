@@ -115,8 +115,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('md__r_e_a_d_m_
 <p>This project is a Go implementation of the semaphore, rendezvous, and mutual exclusion examples supplied in the C++ lab template.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md1"></a>
 Author and licence</h1>
-<p>Author: Shadrach Oboh <br  />
- Licence: [MIT License](LICENSE)</p>
+<p>Author: Shadrach Oboh Licence: [MIT License](LICENSE)</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md2"></a>
 Requirements</h1>
 <ul>
@@ -130,6 +129,9 @@ Run</h1>
 <div class="line">go run ./cmd/hello-threads</div>
 <div class="line">go run ./cmd/rendezvous</div>
 <div class="line">go run ./cmd/mutual-exclusion</div>
+<div class="line">go run ./atomic</div>
+<div class="line">go run ./collatz</div>
+<div class="line">go run ./signal</div>
 <div class="line">go test -race ./...</div>
 </div><!-- fragment --><p>The mutual exclusion example should always print <span class="tt">100000</span>, because the semaphore permits only one goroutine at a time to update the shared counter.</p>
 <h1 class="doxsection"><a class="anchor" id="autotoc_md4"></a>
@@ -147,13 +149,11 @@ Files</h1>
 <li><span class="tt">cmd/hello-threads</span>: basic goroutine and wait-group example.</li>
 <li><span class="tt">cmd/rendezvous</span>: two-way semaphore rendezvous.</li>
 <li><span class="tt">cmd/mutual-exclusion</span>: semaphore-protected shared counter.</li>
+<li><span class="tt"><a class="el" href="atomic_2main_8go.html">atomic/main.go</a></span>: atomic counter shared by multiple goroutines.</li>
+<li><span class="tt"><a class="el" href="collatz_2main_8go.html">collatz/main.go</a></span>: semaphore-limited parallel Collatz calculations.</li>
+<li><span class="tt"><a class="el" href="signal_2main_8go.html">signal/main.go</a></span>: channel-based signalling between two goroutines.</li>
 <li><span class="tt">Doxyfile</span>: optional Doxygen configuration.</li>
-<li><span class="tt">LICENSE</span>: MIT licence.</li>
-</ul>
-<h1 class="doxsection"><a class="anchor" id="autotoc_md6"></a>
-To do</h1>
-<ul>
-<li>Add further semaphore exercises from later lab sessions. </li>
+<li><span class="tt">LICENSE</span>: MIT licence. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
