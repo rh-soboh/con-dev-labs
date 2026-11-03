@@ -33,6 +33,11 @@ A deadlock-safe Dining Philosophers implementation based on the supplied C++
 and Go demonstrations. See the [Lab 5 README](lab5/README.md) for installation
 and usage instructions.
 
+### [Lab 6](lab6/)
+
+A Go producer-consumer implementation using goroutines and a bounded channel
+buffer. See the [Lab 6 README](lab6/README.md) for run instructions.
+
 ## Repository structure
 
 ```text
@@ -42,6 +47,7 @@ con-dev-labs/
 ├── lab3/
 ├── lab4/
 ├── lab5/
+├── lab6/
 ├── go.mod
 └── README.md
 ```
